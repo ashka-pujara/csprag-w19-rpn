@@ -9,7 +9,7 @@ class TestBasics(unittest.TestCase):
     def test_subtract(self):
         result = rpn.calculate('4 2 -')
         self.assertEqual(2, result)
-    def test_multiply(self)
+    def test_multiply(self):
         result = rpn.calculate('3 4 *')
         self.assertEqual(12, result)
     def test_divide(self):
